@@ -25,7 +25,10 @@ class EditNotesViewBody extends StatelessWidget {
           SizedBox(
             height: 15,
           ),
-          CustomTextField(hintText: 'content',maxLines: 5,)
+          CustomTextField(
+            hintText: 'content',
+            maxLines: 5,
+          )
         ],
       ),
     );
