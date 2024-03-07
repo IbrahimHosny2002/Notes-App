@@ -15,7 +15,7 @@ class AddNotesCubit extends Cubit<AddNotesState> {
       await noteBox.add(note);
       emit(AddNotesSuccess());
     } catch (e) {
-      AddNotesFailure(message: e.toString());
+      emit(AddNotesFailure(message: e.toString()));
     }
   }
 }
