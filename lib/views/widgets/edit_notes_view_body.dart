@@ -33,7 +33,7 @@ class _EditNotesViewBodyState extends State<EditNotesViewBody> {
               BlocProvider.of<NotesCubit>(context).fetchAllNotes();
               Navigator.of(context).pop();
             },
-            title: widget.note.title,
+            title: 'Edit note',
             icon: Icons.done,
           ),
           const SizedBox(
