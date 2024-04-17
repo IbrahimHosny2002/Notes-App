@@ -14,7 +14,7 @@ class HomeViewBody extends StatelessWidget {
         children: [
           Center(
               child: Image.asset(
-            'assets/images/logo.jpg',
+            'assets/images/logo.png',
             height: 100,
           )),
           const SizedBox(
